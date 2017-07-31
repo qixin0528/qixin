@@ -1,0 +1,36 @@
+{
+    "localhost": {
+        "module": ["goods", "public"],
+        "goods": {
+            "configName": [
+                "/conf/config-hic-e248fdfef6.js",
+                "/conf/config-jinlei-0aba45995f.js",
+                "/conf/config-lijunjie-49060c5e36.js",
+                "/conf/config-liqing-e69f88e622.js",
+                "/conf/config-lyr-c9c9444b82.js",
+                "/conf/config-qinwen-4602ac0c04.js",
+                "/conf/config-wmy-a26bbd3146.js",
+                "/conf/config-xiaoyu-04969913a1.js",
+                "/conf/config-yee.js",
+                "/conf/config-zhanghao-ec48a91c2a.js",
+                "/conf/config-zyr-65654e935c.js",
+                "/conf/config-zhoumin-448a2dfe99.js",
+                "/conf/config-wlm-74656fa65d.js"
+            ]
+        },
+        "public": {
+            "configName": ["/public/conf/config-publicRoute-ca7d1b0ff4.js"]
+        }
+    },
+    "release": {
+        "module": ["goods", "public"],
+        "goods": {
+            "configName": ["/conf/config-route-64c7b380a6.js"],
+            "fileName": ["hic", "jinlei", "lijunjie", "liqing", "lyr", "qinwen", "wmy", "xiaoyu", "yee", "zhanghao", "zyr", "zhoumin","wlm"]
+        },
+        "public": {
+            "configName": ["/public/conf/config-publicRoute-ca7d1b0ff4.js"],
+            "fileName": ["publicRoute"]
+        }
+    }
+}
